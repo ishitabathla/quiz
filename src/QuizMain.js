@@ -76,7 +76,7 @@ class QuizMain extends React.Component{
 			<div className="container">
 				{this.state.questionList.map((question)=>{
 					return <Question key={question.id} data={question} sendAnswer={this.sendAnswer}/>
-				})};
+				})}
 				<div className="row">
 					<div className="col-md-12">
 						<div>
